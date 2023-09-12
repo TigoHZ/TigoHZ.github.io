@@ -16,7 +16,9 @@ a {
   float: left;
   display: inline;
 }
-
+.logo {
+  float: right;
+}
 li a {
   display: block;
   color: #333;

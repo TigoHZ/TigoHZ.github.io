@@ -23,3 +23,14 @@ table, th, td {
 .Blank {
   border: 1px solid azure;
 }
+.Rechts {
+  float: right;
+}
+/* End of Tabels */
+
+.status {
+  border: 2px solid black;
+  margin-right: 1100px;
+  margin-top: 20px;
+  text-align: center;
+}

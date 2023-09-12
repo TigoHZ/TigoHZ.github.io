@@ -48,7 +48,18 @@ h1 {
   padding: 20px;
   padding-bottom: 500px;
 }
-.home {
+body {
   text-align: center;
+}
+.motivation {
+float: left;
+margin-left: 80px;
+background-color: rgb(221, 244, 244);
+}
+.arguments {
+float: right;
+margin-top: 200px;
+margin-right: 80px;
+background-color: rgb(221, 244, 244);
 }
 

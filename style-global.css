@@ -43,12 +43,23 @@ li .bar, .current {
 }
 /* search bar end*/
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+}
+
 .background {
   background-color: #f0ffff;
 }
-
 .center {
   text-align: center;
+}
+
+.left-and-center {
+  float: left;
 }
 
 .motivation,
@@ -62,7 +73,7 @@ li .bar, .current {
 
 .arguments {
   float: right;
-  margin-top: 200px;
+  margin-top: 20px;
   margin-right: 80px;
   background-color: rgb(221, 244, 244);
   border: solid 2px black;
@@ -71,7 +82,7 @@ li .bar, .current {
 
 .evidence {
   margin-top: 36px;
-  margin-left: 200px;
+  margin-left: 160px;
 }
 
 .socials {
@@ -97,12 +108,43 @@ li .bar, .current {
   border-bottom: solid black 2px;
 }
 
+.duim {
+  float: right;
+  border: solid 2px black;
+  margin-right: 240px;
+}
+.controller {
+  float: right;
+  margin-right: 240px;
+}
+.koptelefoon {
+  float: left;
+  margin-left: 240px;
+}
 /*Blog*/
 .blog {
   border: 1px solid black;
   background-color: rgb(221, 244, 244);
-  width: 450px;
+  width: 510px;
   text-align: center;
+}
+.textnotcenter {
+  border: 1px solid black;
+  background-color: rgb(221, 244, 244);
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-top: 300px;
+}
+.lownotcenter {
+  border: 1px solid black;
+  background-color: rgb(221, 244, 244);
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-top: 110px;
 }
 
 h1,h2,h3,p,li,td,th {
@@ -113,3 +155,86 @@ p,li,td,th {
 font-size:13px;;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.profile {
+  background-color: rgb(221, 244, 244);
+  border: solid 2px black;
+  text-align: center;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 35%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color:  rgb(218, 197, 17); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.5s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(255, 182, 11);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+/* Blog 
+/* Tables */
+table, th, td {
+  border: 2px solid rgb(218, 197, 17);
+  border-style: outset;
+}
+.Legend {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.Blank {
+  border: 1px solid azure;
+}
+.Rechts {
+  float: right;
+}
+/* End of Tabels */
+
+.status {
+  border: 2px solid black;
+  margin-right: 1100px;
+  margin-top: 20px;
+  text-align: center;
+} h1 {
+  text-align: center;

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dashboard</title>
-  <link href="style-dashboard.css" rel="stylesheet" />
+  <script src="app.js"></script>
   <link href="style-global.css" rel="stylesheet" />
 </head>
 
@@ -20,6 +20,19 @@
       <li><a class="bar" href="blog.html">Blog</a></li>
       <li class="logo"><img src="Pictures/HZ_Logo.png" width="180px" height="40px" alt="HZ Logo"></li>
     </ul>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Associate-Degree-full-time-2023-2024-20230720.pdf" target="_blank">HBO-ICT Course</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf" target="_blank">Imp Regulations</a>
+      <a href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23" target="_blank">Learn</a>
+      <a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid" target="_blank">Teams</a>
+      <a href="https://hz.osiris-student.nl/#/home" target="_blank">Study progress</a>
+      <a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a>
+    </div>
+    
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
   </nav>
   <div class="achtergrond">
     <h1>Dashboard a la Tigo</h1>
@@ -183,5 +196,8 @@
       <p>Current progress = 0</p>
       <progress value="0" max="100"> </progress>
     </div>
+  </div>
+  <div class="footer">
+    <p></p>
   </div>
 </body>
